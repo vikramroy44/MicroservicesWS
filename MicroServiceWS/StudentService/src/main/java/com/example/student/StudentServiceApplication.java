@@ -5,9 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
+
 public class StudentServiceApplication {
 
-	@GetMapping("/test")
+	
 	public static void main(String[] args) {
 		SpringApplication.run(StudentServiceApplication.class, args);
 	}
